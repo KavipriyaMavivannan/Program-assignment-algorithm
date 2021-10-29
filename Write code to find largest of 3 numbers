@@ -1,0 +1,57 @@
+import java.util.Scanner;
+public class Biggest_Number 
+{
+    public static void main(String[] args) 
+    {
+        int x, y, z;
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the first number:");
+        x = s.nextInt();
+        System.out.print("Enter the second number:");
+        y = s.nextInt();
+        System.out.print("Enter the third number:");
+        z = s.nextInt();
+        if(x > y && x > z)
+        {
+            System.out.println("Largest number is:"+x);
+        }
+        else if(y > z)
+        {
+            System.out.println("Largest number is:"+y);
+        }
+        else
+        {
+            System.out.println("Largest number is:"+z);
+        }
+ 
+    }
+}
+
+Step 1: Start
+
+Step 2: Declare variables x,y and z. 
+
+Step 3: Read variables x,y and z. 
+
+Step 4: If x>y
+
+If x>z
+
+Display x is the largest number.
+
+Else
+
+Display z is the largest number.
+
+Else
+
+If y>z
+
+Display y is the largest number.
+
+Else
+
+Display z is the greatest number.
+
+Step 5: Stop
+ 
