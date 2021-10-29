@@ -1,0 +1,32 @@
+package com. kavipriya;
+import java.util.Scanner;
+public class Main {
+     public static void main(String[] arg) 
+	 {
+	   int x, y ;
+	   Scanner sc = new Scanner(System.in);	
+	   System.out.print("Please Give first number: ");
+	   x = sc.nextInt(); 
+	   System.out.print("Please Give second number: ");
+	   y = sc.nextInt(); 
+      while(y != 0){
+            int temp = x & y;
+            x = x ^ y;
+            y = temp << 1;
+        }
+        System.out.print("Sum = "+x); 
+		System.out.print("\n");     	
+	}	
+
+
+
+
+Get input 1 from user
+Get input 2 from user
+First condition is num2 not equal to 2 ,
+and gate used the value stored in count
+Or gate is used between num1 and num2 the 
+value stored in num1
+The left movement is used in count the value
+ stored in second number
+Print the sum of two numbers
